@@ -288,9 +288,9 @@ function displayNews() {
             newsContainer.appendChild(articleElement);
         });
     } else {
-        newsContainer.innerHTML = '<p>Nenhum artigo encontrado.</p>';
+        newsContainer.innerHTML = '<p>No articles found.</p>';
     }
 }
 
-// Chama a função para exibir as notícias quando a página é carregada
+// Call the function to display news when the page loads
 window.addEventListener('DOMContentLoaded', displayNews);
