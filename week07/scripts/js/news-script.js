@@ -262,12 +262,12 @@ function displayNews() {
     const newsContainer = document.getElementById('news-container');
     
     if (!newsContainer) {
-        console.error('Elemento #news-container não encontrado!');
+        console.error('#news-container element not found!');
         return;
     }
 
-    // Limpa o conteúdo atual
-    newsContainer.innerHTML = ''; 
+    // Clear current content
+    newsContainer.innerHTML = '';
 
     if (newsData.articles && newsData.articles.length > 0) {
         newsData.articles.forEach(article => {
@@ -281,8 +281,8 @@ function displayNews() {
                     <img src="${imageUrl}" alt="${article.title}">
                 </a>
                 <h3><a href="${article.url}" target="_blank">${article.title}</a></h3>
-                <p>${article.description || 'Descrição não disponível.'}</p>
-                <p><strong>Fonte:</strong> ${article.source.name}</p>
+                <p>${article.description || 'Description not available.'}</p>
+                <p><strong>Source:</strong> ${article.source.name}</p>
             `;
             
             newsContainer.appendChild(articleElement);
