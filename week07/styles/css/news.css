@@ -1,55 +1,53 @@
-<style>
-    /* ... seu CSS existente ... */
+/* ... seu CSS existente ... */
 
-    /* Estilos para a seção de notícias */
-    .news-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 20px;
-        text-align: left;
-    }
+/* Estilos para a seção de notícias */
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    text-align: left;
+}
 
-    .news-article {
-        background-color: #1a1a1a; /* Cor de fundo escura para combinar com o tema */
-        border: 1px solid #333;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-        transition: transform 0.2s;
-    }
+.news-article {
+    background-color: #1a1a1a; /* Cor de fundo escura para combinar com o tema */
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+}
 
-    .news-article:hover {
-        transform: translateY(-5px);
-    }
+.news-article:hover {
+    transform: translateY(-5px);
+}
 
-    .news-article img {
-        width: 100%;
-        height: 200px; /* Altura fixa para as imagens */
-        object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
-        border-radius: 4px;
-        margin-bottom: 15px;
-    }
+.news-article img {
+    width: 100%;
+    height: 200px; /* Altura fixa para as imagens */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
 
-    .news-article h3 {
-        margin-top: 0;
-        font-size: 1.4em;
-        line-height: 1.3;
-    }
-    
-    .news-article h3 a {
-        color: #fff; /* Cor do texto do título */
-        text-decoration: none;
-        transition: color 0.2s;
-    }
+.news-article h3 {
+    margin-top: 0;
+    font-size: 1.4em;
+    line-height: 1.3;
+}
 
-    .news-article h3 a:hover {
-        color: #007BFF; /* Cor do link ao passar o mouse */
-        text-decoration: underline;
-    }
+.news-article h3 a {
+    color: #fff; /* Cor do texto do título */
+    text-decoration: none;
+    transition: color 0.2s;
+}
 
-    .news-article p {
-        font-size: 0.95em;
-        color: #ccc; /* Cor do texto da descrição */
-        line-height: 1.5;
-    }
-</style>
+.news-article h3 a:hover {
+    color: #007BFF; /* Cor do link ao passar o mouse */
+    text-decoration: underline;
+}
+
+.news-article p {
+    font-size: 0.95em;
+    color: #ccc; /* Cor do texto da descrição */
+    line-height: 1.5;
+}
