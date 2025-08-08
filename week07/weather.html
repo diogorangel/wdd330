@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <script src="assets/js/weather.js" defer></script>
     <script src="assets/js/cities.js" defer></script>
+    <script src="scripts/js/lastmodified.js" defer></script>
 </head>
 
 <body class="wt-magic-cursor grey-bg">
@@ -200,7 +201,7 @@
                             <h2 class="wt-section-title mb-40">Searching Cities </h2>
                             <div class="input-group mb-3">
                                 <input type="text" id="city-input" class="form-control" placeholder="Type a name of a city..." aria-label="City Name">
-                                <button class="btn btn-primary" type="button" id="button"><Search></Search></button>
+                                <button class="btn btn-primary" type="button" id="button">Search City</button>
                             </div>
                             <div id="api-results" class="mt-4">
                                 </div>
@@ -332,6 +333,7 @@
                         <div class="row justify-content-center">
                             <div class="col">
                                 <div class="wt-footer-copyright text-center">
+                                    <p>Last Modification: <span id="last-modified"></span></p>
                                     <p class="wt-footer-copyright-pagaraph">Copyright © 2025 <a href="https://www.linkedin.com/in/diogorangels/">Diogo Rangel</a>. All Rights Reserved.</p>
                                 </div>
                             </div>
@@ -341,7 +343,7 @@
             </footer>
             </div>
     </div>
-
+    <script src="scripts/js/lastmodified.js" defer></script>
     <script src="assets/js/vendor/jquery.js"></script>
     <script src="assets/js/vendor/waypoints.js"></script>
     <script src="assets/js/bootstrap-bundle.js"></script>
