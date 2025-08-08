@@ -1,5 +1,5 @@
 // API URL you provided
-const apiUrl = 'https://newsapi.org/v2/everything?q=tesla&from=2025-07-08&sortBy=publishedAt&apiKey=7f0cc8a418064a56b96cd8201018f56c';
+const apiUrl = 'https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=7f0cc8a418064a56b96cd8201018f56c';
 
 // Selects the container where the news will be displayed
 const newsContainer = document.getElementById('news-container');
